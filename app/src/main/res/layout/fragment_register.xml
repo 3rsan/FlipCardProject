@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".Register">
+
+    <ImageView android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_marginStart="250dp"
+               app:srcCompat="@drawable/avatar"
+               android:id="@+id/pickImage"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="REGISTER"
+              android:textSize="30dp"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtNickname"
+            android:hint="Nickname"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txtPassword"
+            android:hint="Password"/>
+    <Button
+            android:text="Save"
+            android:layout_marginTop="180dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSave"/>
+
+</FrameLayout>
